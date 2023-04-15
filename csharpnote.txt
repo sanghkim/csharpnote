@@ -1,0 +1,31 @@
+C# note
+
+0. using XXXX
+1. namespace YYYY
+2. class ZZZ
+
+3. int Console.Read(), string Console.ReadLine() / void Console.Write(string) void Console.WirteLine(string)
+4. sbyte(8) short(16) int(32) long(64)
+   byte(8) ushort(16) uint(32) ulong(64)
+   float(32) double(64) 
+   deciaml(128)
+
+5. string / char
+
+6. @" " @-이스케이프 시퀀스무시, 즉 \도 그냥 문자로 인식
+
+7. string 연산자 == != +
+
+8. Console.WriteLine(" " + var1 + " " + var2.ToString())
+9. Console.WirteLine($" ={var1} ={var2}
+
+10. format 
+C/c 통화
+D/d 10진수
+E/e 지수
+F/f 소수
+G/f 일반
+N/n 천단위구분
+P/p 퍼센트
+R/r 라운드트립
+X/x 16진수
